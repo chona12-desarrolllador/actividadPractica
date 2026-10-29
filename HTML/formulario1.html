@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Nombre: <br>
+        <input type="text" name="nombre" required maxlength="10" placeholder="Ingrese su nombre"> <br>
+        Apellido: <br>
+        <input type="text" name="Apellido"> <br>
+        Telefono: <br>
+        <input type="text" name="telefono" disabled> <br>
+        Documento: <br>
+        <input type="number" min="5"> <br>
+        Correo: <br>
+        <input type="email"> <br>
+        Contraseña: <br>
+        <input type="password" name="password"> <br>
+        Seleccione paises que desea visitar: <br>
+        <input type="checkbox" name="pais1" value="Mexico">Mexico <br>
+        <input type="checkbox" name="pais2" value="Colombia">Colombia <br>
+        <input type="checkbox" name="pais3" value="Argentina">Argentina <br>
+        Seleccione fecha de visita: <br>
+        <input type="date" name="Fecha"> <br>
+        Escriba que lugares quieres visitar: <br>
+        <textarea name="descripcion" rows="5" cols="40">
+        </textarea> <br>
+        Seleccione su genero: <br>
+        <input type="radio" name="genero" value="femenino" checked>Fenemnino <br>
+        <input type="radio" name="genero" value="maculino">Maculino <br>
+        <input type="radio" name="genero" value="otro">Otro <br>
+        Selecione la mascota que va a llevar de viaje: <br>
+        <select name="mascotas">
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="cerdo">Cerdo</option>
+        </select> <br>
+        Adjunte su documento de indentidad: <br>
+        <input type="file" name="documento"> <br>
+        <input type="submit" value="Enviar"> <br>
+    </form>
+</body>
+</html>
